@@ -1,0 +1,37 @@
+{
+  "name": "eevee",
+  "version": "0.0.1",
+  "description": "Firebase testing environment. Notable features: inject test jwt sessions directly into a headless chrome instance.",
+  "dependencies": {
+    "@types/node": "^9.4.0",
+    "kindle": "git+https://github.com/ltomes/kindle.git",
+    "puppeteer": "^0.13.0",
+    "tslib": "^1.9.0"
+  },
+  "devDependencies": {
+    "tslint": "^5.8.0",
+    "typescript": "^2.5.3"
+  },
+  "scripts": {
+    "lint": "./node_modules/.bin/tslint -p tslint.json",
+    "build": "./node_modules/.bin/tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ltomes/eevee.git"
+  },
+  "keywords": [
+    "Firebase",
+    "jst",
+    "testing",
+    "devops"
+  ],
+  "author": "Levi Tomes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ltomes/eevee/issues"
+  },
+  "homepage": "https://github.com/ltomes/eevee#readme"
+}
